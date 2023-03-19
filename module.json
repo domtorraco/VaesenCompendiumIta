@@ -20,7 +20,7 @@
     "relationships": {
         "systems": [
             {
-                "id": "dnd5e",
+                "id": "vaesen",
                 "type": "system",
                 "manifest": "https://github.com/fvtt-fria-ligan/vaesen-foundry-vtt/releases/latest/download/system.json",
                 "compatibility": {
