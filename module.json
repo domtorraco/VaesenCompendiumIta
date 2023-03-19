@@ -6,7 +6,7 @@
         {
             "name": "Balian",
             "url": "https://github.com/domtorraco/",
-            "discord": "Il chierico#0285"
+            "discord": "Balian#5753"
         }
     ],
     "compatibility": {
@@ -25,7 +25,7 @@
                 "manifest": "https://github.com/fvtt-fria-ligan/vaesen-foundry-vtt/releases/latest/download/system.json",
                 "compatibility": {
                     "minimum": "3.0.7",
-                    "verified": "2.1.5"
+                    "verified": "3.0.7"
                 }
               }],
               "requires": [{
@@ -39,128 +39,72 @@
             },
     "packs": [
         {
-            "name": "personaggi",
-            "label": "Personaggi",
-            "path": "packs/personaggi.db",
-            "entity": "Actor",
-            "type": "Actor",
-            "package": "multiverse5e"
-        },
-        {
-            "name": "avventure",
-            "label": "Avventure",
-            "path": "packs/avventure.db",
-            "entity": "Adventure",
-            "type": "Adventure",
-            "package": "multiverse5e"
-        },
-        {
-            "name": "carte",
-            "label": "Carte",
-            "path": "packs/carte.db",
-            "entity": "Cards",
-            "type": "Cards",
-            "package": "multiverse5e"
-        },
-        {
-            "name": "background",
-            "label": "Background",
-            "path": "packs/background.db",
+            "name": "doti",
+            "label": "Doti",
+            "path": "packs/doti.db",
             "entity": "Item",
             "type": "Item",
-            "package": "multiverse5e"
+            "package": "vaesencompendiumita"
         },
         {
-            "name": "talenti",
-            "label": "Talenti",
-            "path": "packs/talenti.db",
+            "name": "equipaggiamento",
+            "label": "Equipaggiamento",
+            "path": "packs/equipaggimento.db",
             "entity": "Item",
             "type": "Item",
-            "package": "multiverse5e"
+            "package": "vaesencompendiumita"
         },
         {
-            "name": "appunti",
-            "label": "Appunti",
-            "path": "packs/appunti.db",
-            "entity": "JournalEntry",
-            "type": "JournalEntry",
-            "package": "multiverse5e"
-        },
-        {
-            "name": "musiche",
-            "label": "Musiche",
-            "path": "packs/musiche.db",
-            "entity": "Playlist",
-            "type": "Playlist",
-            "package": "multiverse5e"
-        },
-        {
-            "name": "sottoclassi-privilegi",
-            "label": "Privilegi di Classe",
-            "path": "packs/sottoclassi-privilegi.db",
+            "name": "ferite-critiche",
+            "label": "Ferite Critiche",
+            "path": "packs/ferite-critiche.db",
             "entity": "Item",
             "type": "Item",
-            "package": "multiverse5e"
+            "package": "vaesencompendiumita"
         },
         {
-            "name": "classi",
-            "label": "Classi",
-            "path": "packs/classi.db",
+            "name": "migliorie",
+            "label": "Migliorie",
+            "path": "packs/migliorie.db",
             "entity": "Item",
             "type": "Item",
-            "package": "multiverse5e"
+            "package": "vaesencompendiumita"
         },
         {
-            "name": "razze-privilegi",
-            "label": "Privilegi di Razze",
-            "path": "packs/razze-privilegi.db",
+            "name": "oggetti-di-potere",
+            "label": "Oggetti di Potere",
+            "path": "packs/oggetti-di-potere.db",
             "entity": "Item",
             "type": "Item",
-            "package": "multiverse5e"
+            "package": "vaesencompendiumitae"
         },
         {
-            "name": "razze",
-            "label": "Razze",
-            "path": "packs/razze.db",
+            "name": "oggetti-magici",
+            "label": "Oggetti Magici",
+            "path": "packs/oggetti-magici.db",
             "entity": "Item",
             "type": "Item",
-            "package": "multiverse5e"
+            "package": "vaesencompendiumita"
         },
         {
-            "name": "oggetti",
-            "label": "Oggetti",
-            "path": "packs/oggetti.db",
+            "name": "poteri-magici",
+            "label": "Poteri Magici",
+            "path": "packs/poteri-magici.db",
             "entity": "Item",
             "type": "Item",
-            "package": "multiverse5e"
+            "package": "vaesencompendiumita"
         },
         {
-            "name": "incantesimi",
-            "label": "Incantesimi",
-            "path": "packs/incantesimi.db",
-            "entity": "Item",
-            "type": "Item",
-            "package": "multiverse5e"
-        },
-        {
-            "name": "macro",
-            "label": "Macro",
-            "path": "packs/macro.db",
-            "entity": "Macro",
-            "type": "Macro",
-            "package": "multiverse5e"
-        },
-        {
-            "name": "tabelle",
-            "label": "Tabelle",
-            "path": "packs/tabelle.db",
+            "name": "tabelle-ferite",
+            "label": "Tabelle Ferite",
+            "path": "packs/tabelle-ferite.db",
             "entity": "RollTable",
             "type": "RollTable",
-            "package": "multiverse5e"
+            "package": "vaesencompendiumita"
         }
     ],
     "url": "https://github.com/domtorraco/VaesenCompendiumIta",
     "manifest": "https://github.com/domtorraco/VaesenCompendiumIta/releases/latest/download/module.json",
     "download": "https://github.com/domtorraco/VaesenCompendiumIta/releases/latest/download/module.zip",
-    "description": "Questo modulo aggiunge classi, sottoclassi e altri elementi mancanti da D&D 5e SRD. Inoltre aggiunge il pazzo materiale Homebrew di Archer e i suoi amici, aiutato da dodo"
+    "description": "questo modulo introduce un compengio del GDR Vaesen pubblicato da Free League e tradotto in Italia da Wyrd Edizioni. Inserisce oggetti, contenuti in gioco e tutto il necessario per vivere i misteri della Scandinavia del 1800 e non solo."
 }
